@@ -54,8 +54,8 @@ public class OneTwoThree extends Application {
 		
 		
 		//Positions for text one and three
-		stackPane1.setAlignment(text1, Pos.TOP_LEFT);
-		stackPane3.setAlignment(text3, Pos.BOTTOM_RIGHT);
+		StackPane.setAlignment(text1, Pos.TOP_LEFT);
+		StackPane.setAlignment(text3, Pos.BOTTOM_RIGHT);
 	
 	
 		//Adding stack planes to a Vertical box
